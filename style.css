@@ -14,7 +14,6 @@ header {
     border-bottom: 0.1rem solid #dfe1e5;
     margin: 0;
     padding: 0;
-
 }
 .contenedor1 {
     display: inline-flex;
@@ -32,8 +31,9 @@ header {
    
 }
 .logo img {
-    max-height: 30vh;
+    max-height: 150%;
     margin: -1.5rem 3rem 0rem 2rem;
+    cursor: pointer;
 
 }
 .barra {
@@ -90,13 +90,14 @@ header {
     margin: 0 2rem 0 1rem;
     border-radius: 50%;
     border-color: #dfe1e5;
+    cursor: pointer;
 }
 
 nav {
     width: 100%;
     height: 5.8rem;
     justify-content: space-evenly;
-    padding: 0; 
+    padding: 1.5rem; 
 }
 nav ul {
     margin: -0.5rem 0 .5rem 0 ;
@@ -106,14 +107,79 @@ nav ul {
 nav a {
     font-size: 1.3rem;
     text-decoration: none;
-    margin: 0 3rem 0rem 0;
+    margin: 0 1.5rem 0rem 0;
     align-items: center;
     color: gray;
+    padding: 0.5em;
 }
 nav a:first-of-type {
-    margin: 0 3rem 0rem 16.5rem;
+    margin: 0 1.5rem 0rem 14rem;
   
 }
 nav a:hover {
-    color: blue;
+    color: #1A73E8;
+    font-weight: bold;
+    border-bottom: 3px solid #1A73E8;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 13% 50% 37%;
+    margin: 0;
+    padding: 0;
+}
+.space {
+ column-gap: 2rem;  
+}
+
+.resultados {
+   column-gap: 2rem;
+   padding: 0;
+  
+}
+.resultados h5 {
+    font-size: 1.3rem;
+    color: gray;
+    line-height: 1.5rem;
+    font-weight: normal;
+}
+.resultados h3 {
+    font-size: 1.8rem;
+    color:#1a0dab;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 1rem;
+}
+.resultados h3:hover {
+    text-decoration: underline;
+}
+.resultados .web {
+    font-size: 1.4rem;
+    color:#006621;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+.resultados p {
+    font-size: small;
+    font-weight: normal;
+    color: #545454;
+    line-height: 1.5;
+    margin:0.5rem;
+}
+.resultados p em {
+    font-size: small;
+    font-weight: bold;
+    font-style: normal;
+}
+.main-search {
+    margin-bottom: 3rem;
+    border: 0.1rem solid #dfe1e5;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+.articles{
+    column-gap: 2rem;
+
 }
