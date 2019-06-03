@@ -142,6 +142,7 @@ nav a:hover {
     color: gray;
     line-height: 1.5rem;
     font-weight: normal;
+    margin-left: 1rem;
 }
 .resultados h3 {
     font-size: 1.8rem;
@@ -159,14 +160,15 @@ nav a:hover {
     font-weight: normal;
     cursor: pointer;
     text-decoration: none;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 .resultados p {
     font-size: small;
     font-weight: normal;
     color: #545454;
     line-height: 1.5;
-    margin:0.5rem;
+    margin: 1rem;
+    margin-bottom: 0;
 }
 .resultados p em {
     font-size: small;
@@ -176,10 +178,78 @@ nav a:hover {
 .main-search {
     margin-bottom: 3rem;
     border: 0.1rem solid #dfe1e5;
-    border-radius: 2rem;
-    padding: 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
 }
-.articles{
-    column-gap: 2rem;
+.datos-opciones {
+    border-bottom: 0.1rem solid #dfe1e5; 
+}
+.datos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.datos ol {
+    list-style: none;
+    margin-top: 0.5rem;
+    padding-inline-start: 1rem;  
+}
+.datos ol li {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #777777;
+    line-height: 1.5;
+}
+.datos ol li em {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-style: normal;
+    color: #777777;
+    line-height: 1.5;
+}
+.datos a {
+    color: #1a0dab;
+    font-weight: normal;
+    font-size: inherit;
+}
+.opciones {
+    margin: 1rem;
+}
+.opciones a { 
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 1.3rem;
+    font-style: normal;
+    margin-right: 0.5rem;
+}
+.opciones a:hover {
+    text-decoration: underline;
+}
 
+/* .articles{
+    column-gap: 2rem;
+} */
+.otras-personas {
+    display: inline-flex;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    margin: 1rem;
+    justify-content: space-between;
+}
+.otras-personas h4 {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: normal;
+    color: #777777;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+.otras-personas i {
+    display: flex;
+    color: solid #777777;
+    opacity: 0.3;
+    font-size: 1.5rem;
+    padding: 1.2rem;
 }
